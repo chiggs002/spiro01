@@ -66,7 +66,8 @@ inoiseG=noise(istepG);
 inoiseB=noise(istepB);
 		//print("inoiseR =",inoiseR,"inoiseG =",inoiseG,"inoiseB =",inoiseB,);
     //size(800,800);
-    createCanvas(800, 800);
+   // createCanvas(800, 800);
+    createCanvas(windowWidth, windowHeight);
     //fullscreen()
     background(0);
   
